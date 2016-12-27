@@ -14,8 +14,22 @@ public class Member {
     private String gender;
     private int phone;
     private String email;
-    private  int password;
+    private String password;
     private Blob photo;
+
+    public Member(){
+
+    }
+
+    public Member(String name,int age, String gender,int phone, String email,String password,Blob photo) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.phone = phone;
+        this.email = email;
+        this.password = password;
+        this.photo = photo;
+    }
 
     public String getName() {
         return name;
@@ -56,11 +70,12 @@ public class Member {
     public void setEmail(String email) {
         this.email = email;
     }
-    public int getPassword() {
+
+    public String getPassword() {
         return password;
     }
 
-    public void setPassword(int password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 
@@ -72,10 +87,5 @@ public class Member {
         this.photo = photo;
     }
 
-   @Override
-    public String toString(){
 
-
-       return null;
-   }
 }

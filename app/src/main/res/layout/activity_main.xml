@@ -42,7 +42,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/editProfile"
+        app:srcCompat="@drawable/editprofile"
         android:id="@+id/imageButton"
         android:layout_marginTop="22dp"
         android:layout_below="@+id/fab"

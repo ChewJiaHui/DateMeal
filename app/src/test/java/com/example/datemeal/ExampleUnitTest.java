@@ -1,4 +1,4 @@
-package com.example.datemeal;
+package com.example.dateMeal;
 
 import org.junit.Test;
 

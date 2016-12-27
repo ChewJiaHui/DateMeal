@@ -31,8 +31,8 @@
     <string name="edit_profile">Edit Profile</string>
 
     <!-- Strings related to Database -->
-    <string name="get_course_url">http://your domain name/select_course.php</string>
-    <string name="insert_course_url">http://your domain name/insert_course.php</string>
+    <string name="get_course_url">http://datemeal.esy.es/select_course.php</string>
+    <string name="register_member_url">http://datemeal.esy.es/register_member_1.php</string>
 
 
 

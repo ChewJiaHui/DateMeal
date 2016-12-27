@@ -11,6 +11,7 @@
     tools:context="com.example.dateMeal.LoginActivity">
 
     <!-- Login progress -->
+
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
@@ -70,7 +71,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/action_sign_in"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:text="@string/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:onClick="register"/>
+
 
         </LinearLayout>
     </ScrollView>
