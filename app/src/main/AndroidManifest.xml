@@ -35,7 +35,8 @@
         <activity
             android:name=".GenderSelectActivity"
             android:label="@string/title_activity_gender_select"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>
