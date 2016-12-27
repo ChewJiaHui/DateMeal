@@ -1,4 +1,4 @@
-package com.example.datemeal;
+package com.example.dateMeal;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

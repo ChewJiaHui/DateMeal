@@ -1,4 +1,4 @@
-package com.example.datemeal;
+package com.example.dateMeal;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

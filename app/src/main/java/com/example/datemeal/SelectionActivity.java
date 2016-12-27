@@ -1,4 +1,4 @@
-package com.example.datemeal;
+package com.example.dateMeal;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

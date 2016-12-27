@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.datemeal">
+    package="com.example.dateMeal">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.dateMeal.LoginActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,20 +23,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.dateMeal.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".EditProfileActivity"
+            android:name="com.example.dateMeal.EditProfileActivity"
             android:label="@string/title_activity_edit_profile"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SelectionActivity" />
-        <activity android:name=".MessageActivity" />
+        <activity android:name="com.example.dateMeal.SelectionActivity" />
+        <activity android:name="com.example.dateMeal.MessageActivity" />
         <activity
-            android:name=".GenderSelectActivity"
+            android:name="com.example.dateMeal.GenderSelectActivity"
             android:label="@string/title_activity_gender_select"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name="com.example.dateMeal.RegisterActivity"></activity>
     </application>
 
 </manifest>

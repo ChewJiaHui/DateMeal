@@ -1,4 +1,4 @@
-package com.example.datemeal;
+package com.example.dateMeal;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
